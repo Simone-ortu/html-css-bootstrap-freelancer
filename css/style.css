@@ -12,43 +12,8 @@
 .h_500px{
   height: 500px;
 }
- .h_75{
-   height: 75%;
- }
-.bg_green{
-  background-color: rgb(86, 223, 173);
-}
-
-.bg_gold{
-  background-color: rgb(223, 214, 86);
-}
-
-.bg_ciano{
-  background-color: rgb(86, 120, 223);
-}
-
-.bg_violet{
-  background-color: rgb(105, 86, 223);
-}
-
-.bg_purple{
-  background-color: rgb(171, 86, 223);
-}
-
-.bg_red{
-  background-color: rgb(223, 86, 86);
-}
-
-.bg_blue{
-  background-color: rgb(5, 22, 176);
-}
-
-.bg_dgreen{
-  background-color: rgb(0, 96, 24);
-}
-
-.bg_magenta{
-  background-color: rgb(98, 18, 93);
+.h_75{
+ height: 75%;
 }
 
 .pt_100px{
@@ -69,7 +34,16 @@
 .f_w{
     font-weight: 600;
 }
+.mb_20px{
+  margin-bottom: 20px;
+}
+.mb_50px{
+  margin-bottom: 50px;
+}
 
+.mt_20px{
+  margin-top: 20px;
+}
 /* header */
 header{
   height: 90px;
@@ -156,9 +130,9 @@ header{
   padding-top: 50px;
   margin-bottom: 50px;
 }
-.mb_20px{
-  margin-bottom: 20px;
-}
+
+/* about */
+
 
 #about .row .t_w{
   color: white;
@@ -168,13 +142,95 @@ header{
   font-weight: 600;
   padding-bottom: 10px;
 }
-#about .bg_btn{
+.bg_btn{
   background-color: #1abc9c;
-
+}
+.btn_dwnl:hover{
+  background-color: white;
+  color: #2C3E50;
+}
+.btn_dwnl a:hover{
+  color: #2C3E50;
 }
 .t_20px{
   font-size: 20px;
 }
 #about .row a{
   color: white;
+}
+
+
+/* contact */
+
+#contact h1{
+  text-transform: uppercase;
+  color: #2C3E50;
+}
+
+
+#contact .ms_star:before,
+#contact .ms_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: #2C3E50;
+  margin: 0 20px;
+}
+#contact .ms_star_b i{
+ color: #2C3E50;
+}
+#contact .form-control{
+  box-shadow: none;
+  color: #2C3E50;
+  border-bottom: 1px solid #e9ecef
+}
+#name::placeholder{
+  color:#2C3E50;
+  font-weight: 600;
+}
+#email::placeholder{
+  color:#2C3E50;
+  font-weight: 600;
+}
+#phonenumber::placeholder{
+  color:#2C3E50;
+  font-weight: 600;
+}
+textarea{
+  color:#2C3E50;
+  font-weight: 600;
+}
+/* footer */
+.bg_ftr_sup{
+  background-color: #3A546D;
+}
+footer #links a{
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+footer h2{
+  margin-bottom:  25px;
+  color: white;
+}
+footer address{
+  color: white;
+  font-size: 20px;
+}
+.bg_ftr_inf{
+  background-color: #2C3E50;
+}
+.text_f{
+  color: white;
+  font-size: 20px;
+}
+.text_f a{
+  color: #1abc9c;
+}
+footer .copy{
+  color: white;
+  line-height: 75px;
 }
